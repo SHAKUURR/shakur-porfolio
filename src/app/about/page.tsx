@@ -3,6 +3,7 @@ import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { DATA } from "@/data/resume";
 import Markdown from "react-markdown";
 import { Testimonial } from "./Testimonial";
+import { Meteors } from "@/components/magicui/meteors";
 
 const About = () => {
 	const BLUR_FADE_DELAY = 0.04;
@@ -11,6 +12,7 @@ const About = () => {
 			<section id="profile">
 				<div className="gap-2 flex justify-between">
 					<div className="flex-col flex flex-1 space-y-1.5">
+						<Meteors number={30} />
 						<BlurFadeText
 							delay={BLUR_FADE_DELAY}
 							className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"

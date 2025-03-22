@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon, User } from "lucide-react";
 
 export const DATA = {
 	name: "Shakur Salman",
-	initials: "DV",
+	initials: "SS",
 	url: "https://shakur-porfolio.vercel.app/",
 	location: "Lagos, Nigeria",
 	locationLink: "https://www.google.com/maps/place/lagos",
@@ -88,7 +88,7 @@ Beyond the code, I enjoy figuring out tricky bugs, picking up new tools, and sha
 			start: "Feb 2023",
 			end: "July 2024",
 			description:
-				"Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+				"At CDLPHUB, I developed web apps for bill payment and utilities management, led a team to build 1,000+ landing page templates, and collaborated with designers and developers on various projects. I played a key role in building a bulk SMS platform and a data marketplace, designed the company’s main landing page, and mentored interns in styling and UI implementation.",
 		},
 		{
 			company: "MyReceipt",
@@ -100,7 +100,7 @@ Beyond the code, I enjoy figuring out tricky bugs, picking up new tools, and sha
 			start: "June 2023",
 			end: "Dec 2023",
 			description:
-				"Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+				"Developed websites for clients, collaborated with design and backend teams to create user-friendly interfaces, attended client meetings to understand business needs, and built a platform for small business owners to generate customer receipts.",
 		},
 	],
 	education: [

@@ -1,6 +1,7 @@
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
+import { Particles } from "@/components/magicui/particles";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -18,6 +19,13 @@ export default function Page() {
 				<div className="mx-auto w-full max-w-2xl space-y-8">
 					<div className="gap-2 flex justify-between">
 						<div className="flex-col flex flex-1 space-y-1.5">
+							<Particles
+								className="absolute inset-0 z-0"
+								quantity={80}
+								ease={80}
+								color={"#0000"}
+								refresh
+							/>
 							<BlurFadeText
 								delay={BLUR_FADE_DELAY}
 								className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
