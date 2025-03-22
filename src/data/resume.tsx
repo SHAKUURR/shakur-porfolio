@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-	name: "Salman Abdulshakur",
+	name: "Shakur Salman",
 	initials: "DV",
 	url: "https://shakur-porfolio.vercel.app/",
 	location: "Lagos, Nigeria",
@@ -167,7 +167,7 @@ export const DATA = {
 		{
 			title: "ABNPAYS",
 			href: "https://abnpays.com/",
-			dates: "April 2023 - September 2023",
+			dates: "- 2024",
 			active: true,
 			description:
 				"A bill payment and utilities management platform that enables users to seamlessly purchase and sell data, airtime, and electricity.",
@@ -227,7 +227,7 @@ export const DATA = {
 		},
 		{
 			title: "QuranVerse",
-			dates: "2025",
+			dates: "- 2025",
 			description:
 				"Developed a website which allows users to search for Quran verse using audio.",
 			image: "qur.jpg",
@@ -235,7 +235,7 @@ export const DATA = {
 				{
 					title: "Website",
 					icon: <Icons.github className="h-4 w-4" />,
-					href: "https://github.com/cryptotrends/cryptotrends",
+					href: "https://quranverse-one.vercel.app",
 				},
 			],
 		},
