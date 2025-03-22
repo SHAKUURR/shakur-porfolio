@@ -11,8 +11,8 @@ const About = () => {
 		<main className="flex flex-col min-h-[100dvh] space-y-10">
 			<section id="profile">
 				<div className="gap-2 flex justify-between">
-					<div className="flex-col flex flex-1 space-y-1.5">
-						<Meteors number={30} />
+					<div className="flex-col flex flex-1 space-y-1.5 relative overflow-x-clip">
+						<Meteors number={10} />
 						<BlurFadeText
 							delay={BLUR_FADE_DELAY}
 							className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
