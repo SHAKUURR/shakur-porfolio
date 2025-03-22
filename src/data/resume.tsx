@@ -13,6 +13,15 @@ export const DATA = {
 	// 	"At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
 	summary:
 		"I'm a frontend developer who builds fast, scalable, and reliable web apps that work flawlessly on any device or browser. I love turning ideas into smooth, user-friendly experiences that help businesses grow. I collaborate with designers, backend developers, and product managers to deliver solid, stress-free projects. When I’m not coding, I’m exploring the latest tech trends or connecting with fellow developers at meetups. 😎",
+	fullbio: `
+I’ve always been hooked on how clean code can make a website feel smooth and easy to use. Over the years, I’ve worked with startups, founders, and teams to turn their ideas into solid web apps—think fast-loading landing pages, interactive dashboards, or full-on web platforms.  
+
+My approach is pretty simple: write code that’s easy to follow, make sure it runs fast, and build interfaces that just work. I focus on frontend development, using tools like React, Typescript, and Tailwind CSS to take designs and make them real, while keeping things accessible and responsive. The goal? Products that users love to interact with, not just scroll through.  
+
+I’m big on **performance and scalability**—making sure that the apps I build can handle growth without slowing down. I also care about the small details, like smooth animations and intuitive navigation, because they’re what make an experience feel polished.  
+
+Beyond the code, I enjoy figuring out tricky bugs, picking up new tools, and sharing what I’ve learned with others. I’ve also worked with backend tools like **Appwrite** to create seamless full-stack solutions when needed. If you’ve got an idea you want to build or a project that needs a boost, let’s team up and create something great together.  
+`,
 	avatarUrl: "/me.jpg",
 	skills: [
 		"Javascipt",
@@ -26,7 +35,7 @@ export const DATA = {
 	],
 	navbar: [
 		{ href: "/", icon: HomeIcon, label: "Home" },
-		{ href: "/blog", icon: NotebookIcon, label: "Blog" },
+		{ href: "/about", icon: NotebookIcon, label: "About" },
 	],
 	contact: {
 		email: "salmanshakur7@gmail.com",
