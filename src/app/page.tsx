@@ -164,13 +164,13 @@ export default function Page() {
 									I like building things
 								</h2>
 								<p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-									When I'm not working on client projects, you'll usually find
-									me experimenting with new ideas, learning new technologies,
-									and building things just for fun. I love the creative freedom
-									that comes with personal projects — exploring new approaches,
-									solving problems, and bringing ideas to life. Here are some of
-									the projects I’ve built during those moments of exploration
-									and curiosity.
+									When I&apos;m not working on client projects, you&apos;ll
+									usually find me experimenting with new ideas, learning new
+									technologies, and building things just for fun. I love the
+									creative freedom that comes with personal projects — exploring
+									new approaches, solving problems, and bringing ideas to life.
+									Here are some of the projects I&apos;ve built during those
+									moments of exploration and curiosity.
 								</p>
 							</div>
 						</div>
@@ -214,7 +214,7 @@ export default function Page() {
 								>
 									an email with any questions,
 								</Link>{" "}
-								and I'll be happy to respond.
+								and I&apos;ll be happy to respond.
 							</p>
 						</div>
 					</BlurFade>
