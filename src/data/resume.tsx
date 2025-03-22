@@ -6,7 +6,7 @@ export const DATA = {
 	initials: "DV",
 	url: "https://shakur-porfolio.vercel.app/",
 	location: "Lagos, Nigeria",
-	locationLink: "https://www.google.com/maps/place/sanfrancisco",
+	locationLink: "https://www.google.com/maps/place/lagos",
 	description:
 		"I build responsive, high-performance, and visually stunning websites and web apps for startups and businesses",
 	// summary:
