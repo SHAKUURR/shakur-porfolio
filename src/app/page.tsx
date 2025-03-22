@@ -158,18 +158,19 @@ export default function Page() {
 						<div className="flex flex-col items-center justify-center space-y-4 text-center">
 							<div className="space-y-2">
 								<div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-									Hackathons
+									Personal Projects
 								</div>
 								<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
 									I like building things
 								</h2>
 								<p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-									During my time in university, I attended{" "}
-									{DATA.hackathons.length}+ hackathons. People from around the
-									country would come together and build incredible things in 2-3
-									days. It was eye-opening to see the endless possibilities
-									brought to life by a group of motivated and passionate
-									individuals.
+									When I'm not working on client projects, you'll usually find
+									me experimenting with new ideas, learning new technologies,
+									and building things just for fun. I love the creative freedom
+									that comes with personal projects — exploring new approaches,
+									solving problems, and bringing ideas to life. Here are some of
+									the projects I’ve built during those moments of exploration
+									and curiosity.
 								</p>
 							</div>
 						</div>
@@ -184,7 +185,7 @@ export default function Page() {
 									<HackathonCard
 										title={project.title}
 										description={project.description}
-										location={project.location}
+										// location={project?.location}
 										dates={project.dates}
 										image={project.image}
 										links={project.links}
@@ -206,15 +207,14 @@ export default function Page() {
 								Get in Touch
 							</h2>
 							<p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-								Want to chat? Just shoot me a dm{" "}
+								Want to connect? Feel free to drop me {""}
 								<Link
-									href={DATA.contact.social.X.url}
+									href={`mailto:${DATA.contact.social.email.url}`}
 									className="text-blue-500 hover:underline"
 								>
-									with a direct question on twitter
+									an email with any questions,
 								</Link>{" "}
-								and I&apos;ll respond whenever I can. I will ignore all
-								soliciting.
+								and I'll be happy to respond.
 							</p>
 						</div>
 					</BlurFade>
