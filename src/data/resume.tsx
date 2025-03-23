@@ -280,7 +280,7 @@ Beyond the code, I enjoy figuring out tricky bugs, picking up new tools, and sha
 			title: "Dreamer Hotel",
 			dates: "- 2022",
 			description:
-				"Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+				"Dreamer Hotel is a premier destination designed for chilling and resting. This website provides a seamless and user-friendly experience for both guests and visitors. Visitors can explore luxurious accommodations, each designed with guest comfort in mind, and take advantage of their easy-to-use booking system to reserve a stay effortlessly.",
 			image: "/dreamer.png",
 			links: [
 				{
